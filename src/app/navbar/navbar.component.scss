@@ -1,38 +1,46 @@
 @import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-*, *:after, *:before {
+/**, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: white;
-  margin:0;
+  font-family: 'Julius Sans One', sans-serif;
+  background-color: blue;
+  color: orange;
+  margin:5px;
   padding: 0;
   // height: 100%;
   // width: 100%;
 }
-
+*/
 .navbar{
-  align-content: right;
+  align-content: center !important;
+  
   .collapse, .navbar-collapse{
     ul{
-      border-bottom: 5px solid limegreen;
+      border-bottom: 5px solid blue;
       list-style-type: none;
-      float: right;
+      .box {
+        display: flex;
+        text-align: center !important;
+      align-items: center;
+      justify-content: center;
+      }
       .module {
         padding: 20px;
-        text-align: center;
-        color: blue;
-        font-family: 'Julius Sans One', sans-serif;
+        text-align: center !important;
+        color: orange;
+        font-family: 'Raleway';font-size: 22px;
         max-height: 120px;
-        min-width: 120px;
-        background-color: white;
+        min-width: 120xpx;
+        background-color: blue;
         border-radius: 2px;
         font-size: 24px;
       }
       .module:hover {
-        background-color: white;
+        background-color: blue;
         cursor: pointer;
-        color: #607d8b;
+        color: #1f4558;
       }
     }
   }
